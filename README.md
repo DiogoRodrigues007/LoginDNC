@@ -1,4 +1,4 @@
-**Tela de Login DNC**
+# Tela de Login DNC
 
 Este repositório contém um projeto desenvolvido como parte de uma atividade da Escola DNC, que consiste em uma tela de login simples utilizando apenas HTML e CSS. O objetivo deste projeto é praticar e aprimorar as habilidades de desenvolvimento web front-end, focando no uso de HTML para estruturar o conteúdo da web e CSS para estilizar e apresentar o layout visualmente atraente.
 

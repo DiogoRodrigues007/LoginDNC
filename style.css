@@ -1,5 +1,8 @@
 body{
     background-color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
+
 }
 .container{
     display: grid;
@@ -12,21 +15,30 @@ body{
     font-weight: 400;
     font-size: 20px;
     color: #FFFFFF;
-    margin-top: 140px;
+    margin-top: 10vh;
+}
+h1 {
+    font-size: 150%;
 }
 #image{
-    margin-bottom: 110px;
+    margin-bottom: 9%;
 }
 .occupy{
-    padding: 15px 350px 15px 10px;
+    padding: 3% 20vh 3% 5%;
     background: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
     border: 0;
-    margin-top: 10px;
 }
 form{
-    display: grid;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.form_input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
 label{
     font-family: 'Raleway';
@@ -35,13 +47,13 @@ label{
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;
+    text-align: left;
 }
 label::placeholder{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;    
+    font-size: 14px;    
     color: #616161;
 }
 #enviar{
@@ -52,7 +64,7 @@ label::placeholder{
     background: #0C70F2;
     border: 0;
     border-radius: 6px;
-    padding: 15px 240px 15px 240px;
+    padding: 15px 100px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 800;
